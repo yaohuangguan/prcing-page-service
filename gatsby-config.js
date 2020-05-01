@@ -9,13 +9,12 @@ module.exports = {
   siteMetadata: {
     title: `Sam Yao 网站搭建服务`,
     description: `I can offer you best web services with high quality and low price.`,
-    siteUrl: `https://delog-w3layouts.netlify.com/`,
+    siteUrl: `https://web.yaobaiyang.com/`,
     home: {
-      title: `Hi! I'm Delog`,
-      description: `I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)`,
-    },
-    /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
-    w3l_dom_key: `5e609f7a2d23fCF_Domain_verify` 
+      title: `Hi! 我是Sam`,
+      description: `我把我这一年的工作及学习经验浓缩成了这个网站搭建服务，只为了带给你永久的，样式与功能定制化，性能强劲的现代Web应用。`,
+      whyme:`Web开发中存在大量的技术和术语：使用DNS和SSL进行域设置？使用TCP和HTTP进行网络请求与转发？使用CDN和Edge Networks进行缓存？前端框架不清楚？后台服务器接口不会写？ 这是一个庞大的清单。它造成了很多复杂性。\n 然而你不需要担心这一切，我通过自身的不断学习和不停地实践，摸索出了一套属于现代Web应用的全面的解决方案。可以让开发者快速地部署，并且得到云服务器快速响应。我已经通过这些经验顺利得到了某大厂的工作，你可以相信我的实力。`
+    }
   },
   plugins: [
     {
