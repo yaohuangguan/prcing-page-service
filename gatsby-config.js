@@ -7,8 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Delog`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Sam Yao 网站搭建服务`,
+    description: `I can offer you best web services with high quality and low price.`,
     siteUrl: `https://delog-w3layouts.netlify.com/`,
     home: {
       title: `Hi! I'm Delog`,
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `Sam Yao web service`,
+        short_name: `Sam`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
