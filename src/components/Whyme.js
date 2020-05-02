@@ -16,7 +16,7 @@ const Whyme = () => (
     `}
     render={(data) => (
       <div className="hero-header">
-        <h3 className="post-title">
+        <h3 className="">
           让所有人都能拥有自己的网站{" "}
           <a className='post-meta' href="https://www.yaobaiyang.com/resume/ch-cn">更多介绍</a>
         </h3>
