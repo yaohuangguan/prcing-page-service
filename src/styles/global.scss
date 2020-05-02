@@ -261,6 +261,14 @@ a {
   font-size: 0.8rem;
   color: var(--text-secondary-color);
 }
+.origin-price-color{
+  font-size: 0.8rem;
+  color: var(--text-secondary-color);
+  text-decoration: line-through;
+  font-weight: 100;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
 .site-footer {
   text-align: center;
   margin: 90px 0 16px;
