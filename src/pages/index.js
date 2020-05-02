@@ -1,20 +1,19 @@
-import React from "react"
-import Helmet from 'react-helmet';
-import { graphql } from 'gatsby'
-import Layout from "../components/layout"
-import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
-import Whyme from '../components/Whyme'
+import React from "react";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import PostLink from "../components/post-link";
+import HeroHeader from "../components/heroHeader";
+import Whyme from "../components/Whyme";
 const IndexPage = ({
   data: {
     site,
     allMarkdownRemark: { edges },
   },
 }) => {
-
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+  const Plans = edges
+    .filter((edge) => edge.node.frontmatter.template === "plan")
+    .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
   return (
     <Layout>
@@ -22,23 +21,17 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
-      <HeroHeader/>
-      <Whyme/>
+      <HeroHeader />
+      <Whyme />
 
       <h2>🍔套餐介绍 &darr;</h2>
-      <div className="grids">
-        {Posts}
-      </div>
-      <br/>
-      <h2>客户案例展示 &darr;</h2>
-      <div className="grids">
-        {Posts}
-      </div>
+      <div className="grids">{Plans}</div>
+      <br />
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 export const pageQuery = graphql`
   query indexPageQuery {
     site {
@@ -57,9 +50,13 @@ export const pageQuery = graphql`
             path
             title
             thumbnail
+            template
+            tool
+            price
+            price_info
           }
         }
       }
     }
   }
-`
+`;

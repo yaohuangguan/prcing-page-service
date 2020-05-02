@@ -49,6 +49,8 @@ export const pageQuery = graphql`
         title
         thumbnail
         metaDescription
+        tool
+        price
       }
     }
   }
