@@ -1,11 +1,11 @@
 {
-  "name": "delog",
-  "description": "A simplified blog for developers and designer. This starter built with Gatsby and Netlify CMS",
+  "name":"atlaswebbuildingservice",
+  "description": "This is for the sam yao web services",
   "author": "W3Layouts Team <support@w3layouts.com>",
   "version": "0.1.1",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/W3Layouts/Delog/issues"
+    "url": "https://web.yaobaiyang.com/bugs"
   },
   "dependencies": {
     "gatsby": "^2.21.0",
@@ -31,14 +31,13 @@
     "prettier": "^1.19.1",
     "typescript": "^3.8.3"
   },
-  "homepage": "https://github.com/W3Layouts/Delog#readme",
+  "homepage": "https://web.yaobaiyang.com",
   "keywords": [
     "gatsby",
     "netlify cms"
   ],
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/W3Layouts/Delog.git"
+    "type": "git"
   },
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",

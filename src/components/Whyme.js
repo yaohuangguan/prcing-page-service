@@ -16,10 +16,10 @@ const Whyme = () => (
     `}
     render={(data) => (
       <div className="hero-header">
-        <h4>
-          为什么选择我?{" "}
-          <a href="https://www.yaobaiyang.com/resume/ch-cn">更多介绍</a>
-        </h4>
+        <h3 className="post-title">
+          让所有人都能拥有自己的网站{" "}
+          <a className='post-meta' href="https://www.yaobaiyang.com/resume/ch-cn">更多介绍</a>
+        </h3>
         <div className="primary-content">
           <p>{data.site.siteMetadata.home.whyme}</p>
         </div>

@@ -10,19 +10,19 @@ const ContactPage = ({
 }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('http://next-bananaboom.herokuapp.com/api/homepage')
-    const data = response.json()
+    const response = await fetch('https://next-bananaboom.herokuapp.com/api/homepage')
+    const data = await response.json()
     console.log(data)
   }
   return (
     <Layout>
       <Helmet>
-        <title>联系我 — {site.siteMetadata.title}</title>
+        <title>了解详情 — {site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
-          <h1 className="post-title">Learn More</h1>
+          <h1 className="post-title">了解详情</h1>
           <p>让我帮助你打造自己的品牌 &rarr;</p>
         </div>
         <div>

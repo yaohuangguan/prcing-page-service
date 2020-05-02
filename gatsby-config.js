@@ -11,8 +11,8 @@ module.exports = {
     description: `I can offer you best web services with high quality and low price.`,
     siteUrl: `https://web.yaobaiyang.com/`,
     home: {
-      title: `Hi! 我是Sam`,
-      description: `我把我这一年的工作及学习经验浓缩成了这个网站搭建服务，只为了带给你永久的，样式与功能定制化，性能强劲的现代Web应用。`,
+      title: `Hi! It's Atlas`,
+      description: `Atlas 网站搭建平台的使命就是让开发与部署变得简单，让所有人都可以拥有自己的网站。并且为了带给你永久的，样式与功能定制化，性能强劲的现代Web应用。`,
       whyme:`Web开发中存在大量的技术和术语：使用DNS和SSL进行域设置？使用TCP和HTTP进行网络请求与转发？使用CDN和Edge Networks进行缓存？前端框架不清楚？后台服务器接口不会写？ 这是一个庞大的清单。它造成了很多复杂性。\n 然而你不需要担心这一切，我通过自身的不断学习和不停地实践，摸索出了一套属于现代Web应用的全面的解决方案。可以让开发者快速地部署，并且得到云服务器快速响应。让无论是开发者或是小白或是创业者都可以很轻松地拥有自己的网站，宣传自己的产品。`
     }
   },
