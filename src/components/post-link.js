@@ -17,7 +17,7 @@ const PostLink = ({ post }) => {
           </Link>
         </h2>
         <div className="post-meta">{tool}</div>
-        <div className="primary-content">{price}</div>
+        <div className="price-color">{price}</div>
         <div className="post-meta">{price_info}</div>
         <div className="post-meta">以上价格不包含域名费用</div>
       </header>

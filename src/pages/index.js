@@ -25,7 +25,7 @@ const IndexPage = ({
       <HeroHeader />
       <Whyme />
 
-      <h2>套餐介绍🍔</h2>
+      <h2>种类介绍</h2>
       <div className="grids">{Plans}</div>
       <br />
     </Layout>

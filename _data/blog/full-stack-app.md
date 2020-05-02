@@ -2,10 +2,10 @@
 template: plan
 path: /full-app
 date: 
-title: 全端应用 Front to Back
+title: 现代全端应用 Front to Back
 thumbnail: /assets/2.jpg
-metaDescription: df sdf df
+metaDescription: 
 tool: 可选 React | Vue | Next.js | Gatsby + Express.js | Django
-price: 29.99RMB起 
-price_info: 免费SSL部署 + 免费3个月售后
+price: 29.9 RMB起 
+price_info: 免费SSL部署 + 免费1个月售后
 ---
