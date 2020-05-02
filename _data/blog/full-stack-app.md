@@ -3,7 +3,7 @@ template: plan
 path: /full-app
 date: 
 title: 全端应用 Front to Back
-thumbnail: /assets/2.gif
+thumbnail: /assets/2.jpg
 metaDescription: df sdf df
 tool: 可选 React | Vue | Next.js | Gatsby + Express.js | Django
 price: 29.99RMB起 

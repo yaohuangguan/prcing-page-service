@@ -13,6 +13,7 @@ const IndexPage = ({
 }) => {
   const Plans = edges
     .filter((edge) => edge.node.frontmatter.template === "plan")
+    .sort((x,y) => x - y)
     .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
   return (
@@ -24,7 +25,7 @@ const IndexPage = ({
       <HeroHeader />
       <Whyme />
 
-      <h2>🍔套餐介绍 &darr;</h2>
+      <h2>套餐介绍🍔</h2>
       <div className="grids">{Plans}</div>
       <br />
     </Layout>
