@@ -2,7 +2,7 @@
 template: plan
 path: /basic-html-plan
 date: 
-title: 前端展示页 H5+CSS
+title: 内容展示页 H5+CSS
 thumbnail: '/assets/html-css.png'
 metaDescription: Meta description for Hello World
 price: 9.9 RMB起
