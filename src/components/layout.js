@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; 2020 SamYao &bull; Proudly Built by <a href="https://www.yaobaiyang.com">Sam</a></p>
+        <p>&copy; 2020 Atlas Web Hosting Services </p>
       </footer>
     </div>
   )

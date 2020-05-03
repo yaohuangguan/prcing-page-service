@@ -10,11 +10,12 @@ const ContactPage = ({
 }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://next-bananaboom.herokuapp.com/api/homepage',{
-      mode:'no-cors'
-    })
-    const data = await response.json()
-    console.log(data)
+    // const response = await fetch('https://next-bananaboom.herokuapp.com/api/homepage',{
+    //   mode:'no-cors'
+    // })
+    // const data = await response.json()
+    // console.log(data)
+    alert('请直接联系sam的微信号')
   }
   return (
     <Layout>
