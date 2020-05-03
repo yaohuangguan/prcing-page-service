@@ -10,7 +10,9 @@ const ContactPage = ({
 }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://next-bananaboom.herokuapp.com/api/homepage')
+    const response = await fetch('https://next-bananaboom.herokuapp.com/api/homepage',{
+      mode:'no-cors'
+    })
     const data = await response.json()
     console.log(data)
   }
