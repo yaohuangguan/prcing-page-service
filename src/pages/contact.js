@@ -31,23 +31,20 @@ const ContactPage = ({
         <div>
           <form className="form-container" onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name"/>
+              <label htmlFor="name">名称</label>
+              <input type="text" name="name" id="name" placeholder='请直接联系微信号by719919153'/>
             </div>
             <div>
-              <label htmlFor="sender">Email</label>
-              <input type="email" name="sender" id="sender"/>
+              <label htmlFor="sender">邮箱</label>
+              <input type="email" name="sender" id="sender" placeholder='请直接联系微信号by719919153' />
             </div>
+          
             <div>
-              <label htmlFor="subject">Subject</label>
-              <input type="text" name="subject" id="subject"/>
-            </div>
-            <div>
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message"></textarea>
+              <label htmlFor="message">信息</label>
+              <textarea placeholder='请直接联系微信号by719919153' name="message" id="message"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
-              <input type="submit" className="button -primary" style={{marginRight: 0}} />
+              <input placeholder='请直接联系微信号by719919153' type="submit" className="button -primary" style={{marginRight: 0}} />
             </div>
           </form>
         </div>
